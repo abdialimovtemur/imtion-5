@@ -4,12 +4,24 @@
 
 
 :root {
-    --color-primary: #274C5B;  /* Asosiy rang */
-    --color-secondary: #7EB693; /* Ikkiychi rang */
-    --color-tertiary: #EFD372;  /* Uchinchi rang */
-    --color-gray: #D4D4D4;      /* Kulrang */
-    --color-light: #F9F8F8;     /* Yengil rang */
-    --color-off-white: #EFF6F1; /* Qoramtir oq rang */
-    --color-dark-gray: #525C60; /* Qoray rang */
-  }
-  
+  --color-primary: #274C5B;
+  --color-secondary: #7EB693;
+  --color-tertiary: #EFD372;
+  --color-gray: #D4D4D4;
+  --color-light: #F9F8F8;
+  --color-off-white: #EFF6F1;
+  --color-dark-gray: #525C60;
+}
+
+
+
+:root {
+  --font-open-sans: 'Open Sans', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-yellowtail: 'Yellowtail', cursive;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
